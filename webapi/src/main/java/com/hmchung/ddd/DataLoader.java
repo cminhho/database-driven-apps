@@ -1,9 +1,9 @@
-package com.gotechmind.hateos;
+package main.java.com.hmchung.ddd;
 
-import com.gotechmind.hateos.domain.FormField;
-import com.gotechmind.hateos.domain.MultiValuedField;
-import com.gotechmind.hateos.repository.FormFieldRepository;
-import com.gotechmind.hateos.repository.MultiValuedFieldRepository;
+import main.java.com.hmchung.ddd.domain.FormField;
+import main.java.com.hmchung.ddd.domain.MultiValuedField;
+import main.java.com.hmchung.ddd.repository.FormFieldRepository;
+import main.java.com.hmchung.ddd.repository.MultiValuedFieldRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

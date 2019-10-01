@@ -1,6 +1,6 @@
-package com.gotechmind.hateos.repository;
+package main.java.com.hmchung.ddd.repository;
 
-import com.gotechmind.hateos.domain.MultiValuedField;
+import main.java.com.hmchung.ddd.domain.MultiValuedField;
 import org.springframework.data.repository.CrudRepository;
 
 public interface MultiValuedFieldRepository extends CrudRepository<MultiValuedField, Long>{

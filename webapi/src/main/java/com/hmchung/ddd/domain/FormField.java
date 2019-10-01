@@ -1,4 +1,4 @@
-package com.gotechmind.hateos.domain;
+package main.java.com.hmchung.ddd.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
