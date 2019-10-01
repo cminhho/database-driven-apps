@@ -1,14 +1,14 @@
-package main.java.com.hmchung.ddd.rest;
+package com.hmchung.ddd.rest;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 import javax.annotation.Resource;
 
-import main.java.com.hmchung.ddd.domain.FormField;
-import main.java.com.hmchung.ddd.domain.MultiValuedField;
-import main.java.com.hmchung.ddd.repository.FormFieldRepository;
-import main.java.com.hmchung.ddd.repository.MultiValuedFieldRepository;
+import com.hmchung.ddd.domain.FormField;
+import com.hmchung.ddd.domain.MultiValuedField;
+import com.hmchung.ddd.repository.FormFieldRepository;
+import com.hmchung.ddd.repository.MultiValuedFieldRepository;
 import org.springframework.hateoas.Link;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;

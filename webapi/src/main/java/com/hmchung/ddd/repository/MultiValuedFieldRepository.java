@@ -1,9 +1,9 @@
-package main.java.com.hmchung.ddd.repository;
+package com.hmchung.ddd.repository;
 
-import main.java.com.hmchung.ddd.domain.MultiValuedField;
-import org.springframework.data.repository.CrudRepository;
+import com.hmchung.ddd.domain.MultiValuedField;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface MultiValuedFieldRepository extends CrudRepository<MultiValuedField, Long>{
+public interface MultiValuedFieldRepository extends JpaRepository<MultiValuedField, Long> {
 
 	Iterable<MultiValuedField> findByParentFieldId(Long parentFieldId);
 

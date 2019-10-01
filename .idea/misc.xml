@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/hateos-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/webapi/pom.xml" />
       </list>
     </option>
   </component>

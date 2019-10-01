@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/database-driven-apps.iml" filepath="$PROJECT_DIR$/.idea/database-driven-apps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hateos-demo/hateos-demo.iml" filepath="$PROJECT_DIR$/hateos-demo/hateos-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapi/hateos-demo.iml" filepath="$PROJECT_DIR$/webapi/hateos-demo.iml" />
     </modules>
   </component>
 </project>

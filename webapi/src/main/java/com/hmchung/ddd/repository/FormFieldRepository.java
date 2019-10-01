@@ -1,8 +1,8 @@
-package main.java.com.hmchung.ddd.repository;
+package com.hmchung.ddd.repository;
 
-import main.java.com.hmchung.ddd.domain.FormField;
-import org.springframework.data.repository.CrudRepository;
+import com.hmchung.ddd.domain.FormField;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface FormFieldRepository extends CrudRepository<FormField, Long>{
+public interface FormFieldRepository extends JpaRepository<FormField, Long> {
 
 }

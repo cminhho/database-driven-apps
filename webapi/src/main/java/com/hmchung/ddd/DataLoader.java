@@ -1,9 +1,9 @@
-package main.java.com.hmchung.ddd;
+package com.hmchung.ddd;
 
-import main.java.com.hmchung.ddd.domain.FormField;
-import main.java.com.hmchung.ddd.domain.MultiValuedField;
-import main.java.com.hmchung.ddd.repository.FormFieldRepository;
-import main.java.com.hmchung.ddd.repository.MultiValuedFieldRepository;
+import com.hmchung.ddd.domain.FormField;
+import com.hmchung.ddd.domain.MultiValuedField;
+import com.hmchung.ddd.repository.FormFieldRepository;
+import com.hmchung.ddd.repository.MultiValuedFieldRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

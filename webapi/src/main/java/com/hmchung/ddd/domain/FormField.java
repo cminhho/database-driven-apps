@@ -1,4 +1,4 @@
-package main.java.com.hmchung.ddd.domain;
+package com.hmchung.ddd.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
