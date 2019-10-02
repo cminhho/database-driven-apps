@@ -1,23 +1,25 @@
 package com.hmchung.ddd.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.hateoas.ResourceSupport;
 
 @Entity
-public class FormField extends ResourceSupport{
+public class FormField extends ResourceSupport {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long fieldId;
+
 	private String type;
 	private String cssClass;
 	private String label;
 	private Boolean multiValued;
-	
-	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long fieldId;
+
+	@ManyToOne
+	@JsonIgnoreProperties("fields")
+	private SubModule subModule;
 
 	public FormField(Long fieldId,
 			String type,
@@ -81,5 +83,13 @@ public class FormField extends ResourceSupport{
 	}
 	public void setMultiValued(Boolean multiValued) {
 		this.multiValued = multiValued;
+	}
+
+	public SubModule getSubModule() {
+		return subModule;
+	}
+
+	public void setSubModule(SubModule subModule) {
+		this.subModule = subModule;
 	}
 }

@@ -1,0 +1,6 @@
+2019-10-02 16:35:48.104  INFO 1990 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-02 16:35:48.182  INFO 1990 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-02 16:35:48.189  INFO 1990 --- [Thread-4] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-02 16:35:48.645  INFO 1990 --- [Thread-4] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38a92823] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-10-02 16:35:48.708  INFO 1990 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : Hikari - Shutdown initiated...
+2019-10-02 16:35:48.961  INFO 1990 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : Hikari - Shutdown completed.
